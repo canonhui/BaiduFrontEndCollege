@@ -1,0 +1,145 @@
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='task1.css'>
+
+</head>
+<body>
+	<div id='body'>
+	<div id='top'>
+		<span>First head of the site</span>
+		<ul>
+			<li><a href='http://www.zhihu.com'>lien4</a></li>
+			<li><a href='http://www.zhihu.com'>lien3</a></li>
+			<li><a href='http://www.zhihu.com'>lien2</a></li>
+			<li><a href='http://www.zhihu.com'>lien1</a></li>
+		</ul>
+	</div>
+	<div class='article'>
+		<h2>First title of the article</h2>
+		<h3>Subtitle of the article</h3>
+		<p><pre>Author       Date of publication</pre></p>
+		<p class='start'>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. Change line</p>
+		<p class='start'>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. <a href='http://www.zhihu.com'>A lien linked to zhihu</a>A very long paragraphe. A very long paragraphe. </p>
+		<img src='https://cdn.pixabay.com/photo/2015/02/04/20/35/girl-624223_960_720.jpg' />
+		<p class='start'>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. <b>Bold words</b>A very long paragraphe. A very long paragraphe. <a href='http://www.zhihu.com' target='_blank'>A lien linked to zhihu opened in a new window</a>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. </p>
+	</div>
+	<div class='article'>
+		<h2>First title of another article</h2>
+		<h3>Subtitle of the article</h3>
+		<p><pre>Author     Date of publication</pre></p>
+		<p class='start'>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. <b>Bold words</b>A very long paragraphe. A very long paragraphe. <a href='http://www.zhihu.com'>A lien linked to zhihu opened in a new window</a>A very long paragraphe. A very long paragraphe. A very long paragraphe. A very long paragraphe. </p>
+		<img src='https://cdn.pixabay.com/photo/2015/02/04/20/35/girl-624223_960_720.jpg' />
+		<ul id='project'>
+			<li>Project list 1</li>
+			<li>Project list 2</li>
+			<li>Project list 3</li>
+		</ul>
+	</div>
+	<div class='article'>
+		<h2>Pictures</h2>
+		
+			<div class='pic_show'>
+				<span>Beautiful picture</span><br>
+				<img src='https://cdn.pixabay.com/photo/2015/02/04/20/35/girl-624223_960_720.jpg' />
+			</div>
+			<div class='pic_show'>
+				<span>Beautiful picture</span><br>
+				<img src='https://cdn.pixabay.com/photo/2015/02/04/20/35/girl-624223_960_720.jpg' />
+			</div>
+
+	</div>
+	<div class='article'>
+		<h2>First title of the last article</h2>
+		<h3>Subtitle of the article</h3>
+		<p><pre>Author     Date of publication</pre></p>
+		<ol>
+			<li>range 1</li>
+			<li>range 2</li>
+			<li>range 3</li>
+		</ol>
+		<p>Following is a table, Adding "border='1'" to help you understand this is a table</p>
+		<table>
+			<tr>
+				<th>table head</th>
+				<th>table head</th>
+				<th>table head</th>
+			</tr>
+			<tr>
+				<td>Content of Data</td>
+				<td>Content of Data</td>
+				<td>Operation</td>
+			</tr>
+			<tr>
+				<td>Content of Data</td>
+				<td>Content of Data</td>
+				<td>Operation</td>
+			</tr>
+			<tr id='last_line'>
+				<td>Total</td>
+				<td colspan='2'>1000</td>
+			</tr>
+		</table>
+	</div>
+	<div class='sidebar'>
+		<h3>From here the sidebar. This is the title of the bar</h3>
+		<form>
+			<table id='register'>
+				<tr>
+					<td class='left'><label>Enter email address </label></td>
+					<td><input type='text' placeholder='This is a text input box' /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class='tip'><span>Please enter the email address with expected format</span></td>
+				</tr>
+				<tr>
+					<td class='left'><label>Enter password </label></td>
+					<td><input type='password' placeholder='This is a password box' /></td>
+				</tr>
+				<tr>
+					<td class='left'><label>Repeat password </label></td>
+					<td><input type='password' placeholder='This is a password box' /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class='tip'><span>Enter a password between 6 and 16 numbers including numbers and letters</span><br /></td>
+				</tr>
+				<tr>
+					<td class='left'><label>Gender </label></td>
+					<td>
+						<input type='radio' name='gender' value='male'>Male</input>
+						<input type='radio' name='gender' value='female'>Female</input><br>
+					</td>
+				</tr>
+				<tr>
+					<td class='left'><label>City </label></td>
+					<td>
+						<select name='city'>
+							<option value='Beijing'>Beijing</option>
+							<option value='Paris'>Paris</option>
+							<option value='London'>London</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class='left'><label>Hobbies </label></td>
+					<td>
+						<input type='checkbox' name='hobbies' value='sport'>Sport</input>
+						<input type='checkbox' name='hobbies' value='art'>Art</input>
+						<input type='checkbox' name='hobbies' value='science'>Science</input>
+					</td>
+				</tr>
+				<tr>
+					<td class='left baseline'><label for='textarea'>Personal Description </label></td>
+					<td><textarea id='textarea' placeholder='In this text area, you can enter your personal description'></textarea></td>
+				</tr>
+			</table>
+			<input type='submit' value='Confirm to submit' />
+		</form>
+	</div>
+	<footer>
+		<span>All rights reserved&copy</span>
+	</footer>
+	</div>
+</body>
+</html>
